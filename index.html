@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IoT-Based Mental Health Monitoring System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="presentation-container">
+        <!-- Slides Container -->
+        <div class="slides-container">
+            
+            <!-- Slide 1: Title Slide -->
+            <div class="slide active" data-slide="1">
+                <div class="slide-content title-slide">
+                    <div class="title-content">
+                        <div class="slide-icon">🧠💻</div>
+                        <h1 class="main-title">IoT-Based Mental Health Monitoring System</h1>
+                        <h2 class="subtitle">with Machine Learning Integration</h2>
+                        <p class="presentation-subtitle">Comprehensive Project Presentation</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 2: Project Overview -->
+            <div class="slide" data-slide="2">
+                <div class="slide-content">
+                    <h1 class="slide-title">Project Overview & Motivation</h1>
+                    <div class="content-grid">
+                        <div class="content-item">
+                            <div class="icon">🎯</div>
+                            <p>Transform mental health care from reactive crisis management to proactive, personalized, continuous care</p>
+                        </div>
+                        <div class="content-item">
+                            <div class="icon">⚡</div>
+                            <p>Leverage IoT sensors and AI for comprehensive monitoring</p>
+                        </div>
+                        <div class="content-item">
+                            <div class="icon">🌍</div>
+                            <p>Address the global mental health crisis with technology-driven solutions</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 3: Mental Health Crisis -->
+            <div class="slide" data-slide="3">
+                <div class="slide-content">
+                    <h1 class="slide-title">The Mental Health Crisis: Why This Matters</h1>
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <div class="stat-number">1 in 4</div>
+                            <div class="stat-label">people experience mental health issues annually</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">$2.5T</div>
+                            <div class="stat-label">global cost in lost productivity and healthcare</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">60%</div>
+                            <div class="stat-label">of conditions go undetected until crisis point</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">⚠️</div>
+                            <div class="stat-label">Current limitations: Reactive approach, limited personalization</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 4: Our Vision -->
+            <div class="slide" data-slide="4">
+                <div class="slide-content vision-slide">
+                    <h1 class="slide-title">Our Vision: Proactive Mental Health Care</h1>
+                    <div class="vision-content">
+                        <div class="vision-icon">🔮</div>
+                        <blockquote class="vision-quote">
+                            Transform mental health from reactive crisis management to proactive, personalized, continuous care using IoT sensors and AI
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 5: Mission Statement -->
+            <div class="slide" data-slide="5">
+                <div class="slide-content mission-slide">
+                    <h1 class="slide-title">Primary Mission Statement</h1>
+                    <div class="mission-content">
+                        <div class="mission-icon">🎯</div>
+                        <blockquote class="mission-quote">
+                            "Develop an intelligent, real-time mental health monitoring ecosystem that continuously tracks physiological, behavioral, and environmental factors to provide early detection, personalized insights, and timely interventions for mental health conditions."
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 6: Core Objectives -->
+            <div class="slide" data-slide="6">
+                <div class="slide-content">
+                    <h1 class="slide-title">Core Objectives</h1>
+                    <div class="objectives-grid">
+                        <div class="objective-card">
+                            <h3>Early Detection & Prevention</h3>
+                            <ul>
+                                <li>Real-time 24/7 monitoring</li>
+                                <li>Pattern recognition</li>
+                                <li>Risk assessment</li>
+                                <li>Predictive analytics (24-48 hours)</li>
+                            </ul>
+                        </div>
+                        <div class="objective-card">
+                            <h3>Personalized Care & Intervention</h3>
+                            <ul>
+                                <li>Individual baselines</li>
+                                <li>Tailored recommendations</li>
+                                <li>Adaptive learning</li>
+                                <li>Context-aware alerts</li>
+                            </ul>
+                        </div>
+                        <div class="objective-card">
+                            <h3>Comprehensive Health Assessment</h3>
+                            <ul>
+                                <li>Multimodal data integration</li>
+                                <li>Holistic view</li>
+                                <li>Longitudinal tracking</li>
+                                <li>Clinical integration</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 7: Target Applications -->
+            <div class="slide" data-slide="7">
+                <div class="slide-content">
+                    <h1 class="slide-title">Target Applications</h1>
+                    <div class="applications-grid">
+                        <div class="app-item">
+                            <div class="app-icon">👤</div>
+                            <h3>Individual Users</h3>
+                            <p>Personal mental health monitoring and self-care</p>
+                        </div>
+                        <div class="app-item">
+                            <div class="app-icon">🏥</div>
+                            <h3>Healthcare Providers</h3>
+                            <p>Clinical decision support and remote monitoring</p>
+                        </div>
+                        <div class="app-item">
+                            <div class="app-icon">🏢</div>
+                            <h3>Workplace Wellness</h3>
+                            <p>Employee mental health programs</p>
+                        </div>
+                        <div class="app-item">
+                            <div class="app-icon">🔬</div>
+                            <h3>Research Institutions</h3>
+                            <p>Mental health studies and clinical trials</p>
+                        </div>
+                        <div class="app-item">
+                            <div class="app-icon">🏛️</div>
+                            <h3>Public Health</h3>
+                            <p>Population-level mental health insights</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 8: Parameters Overview -->
+            <div class="slide" data-slide="8">
+                <div class="slide-content">
+                    <h1 class="slide-title">Comprehensive Parameters for ML Training</h1>
+                    <div class="parameters-overview">
+                        <div class="param-category">
+                            <div class="param-icon">⌚</div>
+                            <h3>Physiological Parameters</h3>
+                            <p>Wearable Devices</p>
+                        </div>
+                        <div class="param-category">
+                            <div class="param-icon">📱</div>
+                            <h3>Behavioral Parameters</h3>
+                            <p>Smartphone/IoT</p>
+                        </div>
+                        <div class="param-category">
+                            <div class="param-icon">🏠</div>
+                            <h3>Environmental Parameters</h3>
+                            <p>Smart Home</p>
+                        </div>
+                        <div class="param-category">
+                            <div class="param-icon">🎤</div>
+                            <h3>Voice & Audio Parameters</h3>
+                            <p>Speech Analysis</p>
+                        </div>
+                        <div class="param-category">
+                            <div class="param-icon">📊</div>
+                            <h3>Contextual & Meta Parameters</h3>
+                            <p>Temporal Context</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 9: Physiological Parameters -->
+            <div class="slide" data-slide="9">
+                <div class="slide-content">
+                    <h1 class="slide-title">Physiological Parameters (Wearable Devices)</h1>
+                    <div class="parameters-detail">
+                        <div class="param-section">
+                            <h3>Cardiovascular System</h3>
+                            <ul>
+                                <li>Heart Rate (HR)</li>
+                                <li>Heart Rate Variability (HRV)</li>
+                                <li>Blood Pressure</li>
+                            </ul>
+                        </div>
+                        <div class="param-section">
+                            <h3>Autonomic Nervous System</h3>
+                            <ul>
+                                <li>Electrodermal Activity (EDA/GSR)</li>
+                                <li>Skin Conductance Response (SCR)</li>
+                            </ul>
+                        </div>
+                        <div class="param-section">
+                            <h3>Sleep Physiology</h3>
+                            <ul>
+                                <li>Sleep duration</li>
+                                <li>Sleep quality</li>
+                                <li>Deep sleep</li>
+                                <li>REM sleep</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 10: Behavioral Parameters -->
+            <div class="slide" data-slide="10">
+                <div class="slide-content">
+                    <h1 class="slide-title">Behavioral Parameters (Smartphone/IoT)</h1>
+                    <div class="parameters-detail">
+                        <div class="param-section">
+                            <h3>Physical Activity Patterns</h3>
+                            <ul>
+                                <li>Steps, calories, distance</li>
+                                <li>Activity timing</li>
+                                <li>Movement patterns</li>
+                            </ul>
+                        </div>
+                        <div class="param-section">
+                            <h3>Digital Behavior Patterns</h3>
+                            <ul>
+                                <li>Screen time</li>
+                                <li>App usage</li>
+                                <li>Notification patterns</li>
+                            </ul>
+                        </div>
+                        <div class="param-section">
+                            <h3>Communication Patterns</h3>
+                            <ul>
+                                <li>Social interaction frequency</li>
+                                <li>Response times</li>
+                                <li>Communication quality</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 11: Environmental Parameters -->
+            <div class="slide" data-slide="11">
+                <div class="slide-content">
+                    <h1 class="slide-title">Environmental Parameters (Smart Home)</h1>
+                    <div class="parameters-detail">
+                        <div class="param-section">
+                            <h3>Physical Environment</h3>
+                            <ul>
+                                <li>Temperature</li>
+                                <li>Humidity</li>
+                                <li>Light levels</li>
+                            </ul>
+                        </div>
+                        <div class="param-section">
+                            <h3>Air Quality</h3>
+                            <ul>
+                                <li>PM2.5</li>
+                                <li>PM10</li>
+                                <li>CO2</li>
+                                <li>Overall air quality</li>
+                            </ul>
+                        </div>
+                        <div class="param-section">
+                            <h3>Acoustic Environment</h3>
+                            <ul>
+                                <li>Noise levels</li>
+                                <li>Sound patterns</li>
+                                <li>Acoustic comfort</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 12: Voice Parameters -->
+            <div class="slide" data-slide="12">
+                <div class="slide-content">
+                    <h1 class="slide-title">Voice & Audio Parameters</h1>
+                    <div class="parameters-detail">
+                        <div class="param-section">
+                            <h3>Prosodic Features</h3>
+                            <ul>
+                                <li>Pitch variation</li>
+                                <li>Pitch range</li>
+                                <li>Pitch stability</li>
+                            </ul>
+                        </div>
+                        <div class="param-section">
+                            <h3>Speech Patterns</h3>
+                            <ul>
+                                <li>Speaking rate</li>
+                                <li>Rhythm</li>
+                                <li>Fluency</li>
+                            </ul>
+                        </div>
+                        <div class="param-section">
+                            <h3>Emotional Content</h3>
+                            <ul>
+                                <li>Dominant emotion</li>
+                                <li>Stress score</li>
+                                <li>Voice quality</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 13: ML Strategy -->
+            <div class="slide" data-slide="13">
+                <div class="slide-content">
+                    <h1 class="slide-title">Machine Learning Implementation Strategy</h1>
+                    <div class="ml-strategy">
+                        <div class="strategy-header">
+                            <h3>Multi-Layer Approach</h3>
+                        </div>
+                        <div class="ml-flow">
+                            <div class="flow-item">Raw Sensor Data</div>
+                            <div class="flow-arrow">→</div>
+                            <div class="flow-item">Feature Extraction</div>
+                            <div class="flow-arrow">→</div>
+                            <div class="flow-item">Single-Modality Models</div>
+                            <div class="flow-arrow">→</div>
+                            <div class="flow-item">Multimodal Fusion</div>
+                            <div class="flow-arrow">→</div>
+                            <div class="flow-item">Final Prediction</div>
+                        </div>
+                        <div class="ml-layers">
+                            <div class="layer-item">Base Models: Individual models for each data type</div>
+                            <div class="layer-item">Fusion Layer: Combines predictions from all modalities</div>
+                            <div class="layer-item">Personalization Layer: Adapts to individual user patterns</div>
+                            <div class="layer-item">Temporal Layer: Captures time-dependent patterns</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 14: ML Models -->
+            <div class="slide" data-slide="14">
+                <div class="slide-content">
+                    <h1 class="slide-title">Specific ML Models & Algorithms</h1>
+                    <div class="ml-models-grid">
+                        <div class="model-category">
+                            <h3>Physiological Signal Processing</h3>
+                            <ul>
+                                <li>Random Forest for stress classification</li>
+                                <li>Support Vector Regression</li>
+                                <li>Isolation Forest for anomaly detection</li>
+                            </ul>
+                        </div>
+                        <div class="model-category">
+                            <h3>Behavioral Pattern Recognition</h3>
+                            <ul>
+                                <li>Random Forest for activity prediction</li>
+                                <li>LSTM networks for sequential patterns</li>
+                                <li>Change-point detection algorithms</li>
+                            </ul>
+                        </div>
+                        <div class="model-category">
+                            <h3>Voice & Audio Analysis</h3>
+                            <ul>
+                                <li>CNN-LSTM for emotion recognition</li>
+                                <li>SVM on prosodic features</li>
+                                <li>Deep learning on voice patterns</li>
+                            </ul>
+                        </div>
+                        <div class="model-category">
+                            <h3>Multimodal Fusion</h3>
+                            <ul>
+                                <li>Meta-Learner neural networks</li>
+                                <li>Attention mechanisms</li>
+                                <li>Ensemble methods</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 15: Training Pipeline -->
+            <div class="slide" data-slide="15">
+                <div class="slide-content">
+                    <h1 class="slide-title">Training Pipeline & Methodology</h1>
+                    <div class="training-content">
+                        <div class="pipeline-flow">
+                            <h3>Pipeline Flow</h3>
+                            <div class="pipeline-steps">
+                                <span class="pipeline-step">Raw Data</span>
+                                <span class="pipeline-arrow">→</span>
+                                <span class="pipeline-step">Cleaning</span>
+                                <span class="pipeline-arrow">→</span>
+                                <span class="pipeline-step">Feature Extraction</span>
+                                <span class="pipeline-arrow">→</span>
+                                <span class="pipeline-step">Normalization</span>
+                                <span class="pipeline-arrow">→</span>
+                                <span class="pipeline-step">Personalization</span>
+                                <span class="pipeline-arrow">→</span>
+                                <span class="pipeline-step">Training</span>
+                            </div>
+                        </div>
+                        <div class="training-strategies">
+                            <div class="strategy-section">
+                                <h3>Personalization Strategies</h3>
+                                <ul>
+                                    <li>User-Specific Baselines: Personal normal ranges</li>
+                                    <li>Z-Score Normalization: Relative to personal baseline</li>
+                                    <li>Transfer Learning: Population model fine-tuned per user</li>
+                                    <li>Online Learning: Continuous model updates</li>
+                                </ul>
+                            </div>
+                            <div class="validation-section">
+                                <h3>Validation Approaches</h3>
+                                <ul>
+                                    <li>Cross-Validation: User-independent splits</li>
+                                    <li>Temporal Validation: Train on past, test on future</li>
+                                    <li>Clinical Validation: Compare with clinical assessments</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 16: Benefits -->
+            <div class="slide" data-slide="16">
+                <div class="slide-content">
+                    <h1 class="slide-title">Benefits & Impact of ML Integration</h1>
+                    <div class="benefits-grid">
+                        <div class="benefit-category">
+                            <h3>Accuracy & Reliability</h3>
+                            <ul>
+                                <li>Complex pattern recognition</li>
+                                <li>Personalized baselines</li>
+                                <li>Noise handling</li>
+                                <li>Outlier detection</li>
+                            </ul>
+                        </div>
+                        <div class="benefit-category">
+                            <h3>Early Detection & Prevention</h3>
+                            <ul>
+                                <li>24-48 hour episode prediction</li>
+                                <li>Trend analysis</li>
+                                <li>Risk assessment</li>
+                                <li>Optimal intervention timing</li>
+                            </ul>
+                        </div>
+                        <div class="benefit-category">
+                            <h3>Personalized Care</h3>
+                            <ul>
+                                <li>Individualized recommendations</li>
+                                <li>Effectiveness tracking</li>
+                                <li>Context-aware delivery</li>
+                            </ul>
+                        </div>
+                        <div class="benefit-category">
+                            <h3>Scalability</h3>
+                            <ul>
+                                <li>Automated analysis</li>
+                                <li>24/7 availability</li>
+                                <li>Population health insights</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 17: Datasets -->
+            <div class="slide" data-slide="17">
+                <div class="slide-content">
+                    <h1 class="slide-title">Comprehensive Dataset Requirements</h1>
+                    <div class="datasets-grid">
+                        <div class="dataset-category">
+                            <h3>Wearable Stress & Physiological</h3>
+                            <ul>
+                                <li>WESAD Dataset (University of Siegen)</li>
+                                <li>Wearable Exam Stress Dataset</li>
+                                <li>CAN-STRESS Dataset</li>
+                            </ul>
+                        </div>
+                        <div class="dataset-category">
+                            <h3>Smartphone Sensing & Behavioral</h3>
+                            <ul>
+                                <li>ExtraSensory Dataset (UC San Diego)</li>
+                                <li>StudentLife Dataset (Dartmouth)</li>
+                                <li>ASCERTAIN Dataset</li>
+                            </ul>
+                        </div>
+                        <div class="dataset-category">
+                            <h3>Voice & Audio Emotion</h3>
+                            <ul>
+                                <li>IEMOCAP Dataset (USC SAIL)</li>
+                                <li>RAVDESS Dataset</li>
+                                <li>DAIC-WOZ Dataset (USC ICT)</li>
+                            </ul>
+                        </div>
+                        <div class="dataset-category">
+                            <h3>Sleep & Clinical</h3>
+                            <ul>
+                                <li>Sleep-EDF Dataset</li>
+                                <li>AVEC Challenges</li>
+                                <li>AMIGOS Dataset</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 18: Roadmap -->
+            <div class="slide" data-slide="18">
+                <div class="slide-content">
+                    <h1 class="slide-title">Implementation Roadmap & Timeline</h1>
+                    <div class="roadmap-timeline">
+                        <div class="phase-item">
+                            <div class="phase-header">
+                                <h3>Phase 1: Foundation & Data Collection</h3>
+                                <span class="phase-duration">Months 1-3</span>
+                            </div>
+                            <ul>
+                                <li>System architecture development</li>
+                                <li>Initial data collection</li>
+                                <li>Dataset acquisition & preparation</li>
+                            </ul>
+                        </div>
+                        <div class="phase-item">
+                            <div class="phase-header">
+                                <h3>Phase 2: Single-Modality ML Models</h3>
+                                <span class="phase-duration">Months 4-6</span>
+                            </div>
+                            <ul>
+                                <li>Physiological signal processing</li>
+                                <li>Behavioral pattern recognition</li>
+                                <li>Voice & audio analysis</li>
+                            </ul>
+                        </div>
+                        <div class="phase-item">
+                            <div class="phase-header">
+                                <h3>Phase 3: Multimodal Fusion & Integration</h3>
+                                <span class="phase-duration">Months 7-9</span>
+                            </div>
+                            <ul>
+                                <li>Fusion architecture development</li>
+                                <li>Personalization implementation</li>
+                                <li>Real-time system development</li>
+                            </ul>
+                        </div>
+                        <div class="phase-item">
+                            <div class="phase-header">
+                                <h3>Phase 4: Clinical Validation & Deployment</h3>
+                                <span class="phase-duration">Months 10-12</span>
+                            </div>
+                            <ul>
+                                <li>Clinical validation</li>
+                                <li>System integration</li>
+                                <li>Performance optimization</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 19: Outcomes -->
+            <div class="slide" data-slide="19">
+                <div class="slide-content">
+                    <h1 class="slide-title">Expected Outcomes & Impact</h1>
+                    <div class="outcomes-grid">
+                        <div class="outcome-category">
+                            <h3>Technical Performance</h3>
+                            <div class="metrics-list">
+                                <div class="metric-item">20-30% accuracy improvement</div>
+                                <div class="metric-item">24-48 hour early warning</div>
+                                <div class="metric-item">60-70% false positive reduction</div>
+                                <div class="metric-item">&lt;100ms prediction latency</div>
+                            </div>
+                        </div>
+                        <div class="outcome-category">
+                            <h3>Clinical Impact</h3>
+                            <div class="metrics-list">
+                                <div class="metric-item">70-80% crisis reduction</div>
+                                <div class="metric-item">3-5x intervention effectiveness</div>
+                                <div class="metric-item">40-60% treatment adherence improvement</div>
+                                <div class="metric-item">30-50% recovery time reduction</div>
+                            </div>
+                        </div>
+                        <div class="outcome-category">
+                            <h3>Economic Impact</h3>
+                            <div class="metrics-list">
+                                <div class="metric-item">$2,000-5,000 annual savings per person</div>
+                                <div class="metric-item">$10,000-20,000 per crisis avoided</div>
+                                <div class="metric-item">20-30% treatment cost reduction</div>
+                                <div class="metric-item">$5,000-15,000 productivity gain per person</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 20: Challenges -->
+            <div class="slide" data-slide="20">
+                <div class="slide-content">
+                    <h1 class="slide-title">Challenges & Risk Mitigation</h1>
+                    <div class="challenges-grid">
+                        <div class="challenge-category">
+                            <h3>Technical Challenges</h3>
+                            <div class="challenge-item">
+                                <strong>Challenges:</strong> Data quality & reliability, Model generalization, Real-time performance
+                            </div>
+                            <div class="solution-item">
+                                <strong>Solutions:</strong> Advanced signal processing, Diverse training data, Model optimization
+                            </div>
+                        </div>
+                        <div class="challenge-category">
+                            <h3>Clinical & Ethical</h3>
+                            <div class="challenge-item">
+                                <strong>Challenges:</strong> Clinical validation, Privacy & security, Bias & fairness
+                            </div>
+                            <div class="solution-item">
+                                <strong>Solutions:</strong> Professional collaboration, Comprehensive security, Regular bias audits
+                            </div>
+                        </div>
+                        <div class="challenge-category">
+                            <h3>Implementation</h3>
+                            <div class="challenge-item">
+                                <strong>Challenges:</strong> User adoption, Clinical integration, System scalability
+                            </div>
+                            <div class="solution-item">
+                                <strong>Solutions:</strong> User education, Gradual integration, Scalable architecture
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 21: Future Directions -->
+            <div class="slide" data-slide="21">
+                <div class="slide-content">
+                    <h1 class="slide-title">Future Directions & Expansion</h1>
+                    <div class="future-grid">
+                        <div class="future-category">
+                            <h3>Advanced ML Capabilities</h3>
+                            <ul>
+                                <li>Transformer models</li>
+                                <li>Graph neural networks</li>
+                                <li>Reinforcement learning</li>
+                                <li>Federated learning</li>
+                            </ul>
+                        </div>
+                        <div class="future-category">
+                            <h3>Expanded Modalities</h3>
+                            <ul>
+                                <li>EEG brain monitoring</li>
+                                <li>Eye tracking</li>
+                                <li>Facial expression analysis</li>
+                                <li>Weather correlation</li>
+                            </ul>
+                        </div>
+                        <div class="future-category">
+                            <h3>Clinical Applications</h3>
+                            <ul>
+                                <li>Specialized populations</li>
+                                <li>EHR integration</li>
+                                <li>Telemedicine support</li>
+                                <li>Research platform</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 22: Conclusion -->
+            <div class="slide" data-slide="22">
+                <div class="slide-content conclusion-slide">
+                    <h1 class="slide-title">Conclusion & Call to Action</h1>
+                    <div class="conclusion-content">
+                        <div class="conclusion-summary">
+                            <p class="summary-text">This IoT-based mental health monitoring system represents a paradigm shift from reactive to proactive mental health care</p>
+                        </div>
+                        <div class="achievements">
+                            <h3>What We Can Achieve:</h3>
+                            <ul>
+                                <li>Detect mental health issues before crises</li>
+                                <li>Provide personalized, evidence-based interventions</li>
+                                <li>Improve mental health outcomes and quality of life</li>
+                                <li>Reduce healthcare costs and improve resource utilization</li>
+                                <li>Advance scientific understanding of mental health</li>
+                            </ul>
+                        </div>
+                        <div class="call-to-action">
+                            <blockquote>
+                                Join us in building the future of mental health care. The technology exists, the need is urgent, and the impact will be transformative.
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Navigation Controls -->
+        <div class="navigation-controls">
+            <button class="nav-btn prev-btn" id="prevBtn">❮</button>
+            <button class="nav-btn next-btn" id="nextBtn">❯</button>
+        </div>
+
+        <!-- Progress Bar -->
+        <div class="progress-bar">
+            <div class="progress" id="progress"></div>
+        </div>
+
+        <!-- Slide Counter -->
+        <div class="slide-counter">
+            <span class="current-slide" id="currentSlide">1</span> / <span class="total-slides">22</span>
+        </div>
+
+        <!-- Navigation Dots -->
+        <div class="nav-dots" id="navDots"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
